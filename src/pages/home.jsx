@@ -1,10 +1,13 @@
+import List from "../components/filmList";
+import Hero from "../components/hero";
 
 const Home = () => {
-  return (
-   <div>
-    <h1>home</h1>
-   </div>
-  )
-}
+ return(
+  <>
+  <Hero />
+  <List />
+  </>
+ )
+};
 
-export default Home
+export default Home;

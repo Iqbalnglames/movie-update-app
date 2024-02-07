@@ -4,6 +4,16 @@
 
 .background-movie {
     background-image: url('https://www.intofilm.org/intofilm-production/9628/scaledcropped/630x355/resources/9628/into-film-plus-catalogue-image-07-22.jpg');
-    
+}
+.bg-faded {
+    height: 200px;
+    background: linear-gradient(
+        to top,
+        rgb(0 0 0 / 0.5),
+        rgb(0 0 0 / 0)
+    ),
+    url('https://i.ebayimg.com/images/g/dEUAAOSwECtkD628/s-l1200.webp');
+    background-position: center;
+    background-size: cover;
     
 }
